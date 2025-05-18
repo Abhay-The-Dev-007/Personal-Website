@@ -331,6 +331,15 @@ body::before {
   .name {
     font-size: 30px;
   }
+
+  .resume{
+  height: 15px;
+  width: 80px;
+  background-color:#3c85f9;
+  padding: 3px 3px;
+  font-size: 10px;
+  border-radius: 3px;
+}
 }
 
 
