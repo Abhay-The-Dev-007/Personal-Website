@@ -57,6 +57,7 @@
     max-height: 0;
     overflow: hidden;
     width: 100%;
+    overflow: auto;
   }
 
   .card2-section:hover .details {

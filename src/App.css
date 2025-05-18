@@ -121,6 +121,9 @@ body::before {
   background-color: rgb(244, 185, 75);
   border-radius: 10px;
 }
+.pro{
+  padding-top: 50px;
+}
 
 .contact {
   padding-top: 400px;
@@ -301,6 +304,10 @@ body::before {
     padding-left: 10px;
     padding-right: 10px;
   }
+
+  .pro{
+  padding-top: 30px;
+}
 
   .contact h2,
   .Skills h2,
