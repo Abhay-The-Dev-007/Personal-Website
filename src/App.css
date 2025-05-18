@@ -47,7 +47,7 @@ body::before {
 .about-me {
   margin-top: 6px;
   font-size: 40px;
-  
+  font-weight: bold;
 }
 
 .introduction {
@@ -68,6 +68,7 @@ body::before {
 .introduction h4 {
   font-size: 40px;
   text-align: right;
+  font-weight: bold;
 }
 
 .resume{
@@ -304,6 +305,7 @@ body::before {
 
   .introduction h4 {
     font-size: 18px;
+    text-align: right;
   }
 
   .Skills,
@@ -333,11 +335,11 @@ body::before {
   }
 
   .resume{
-  height: 15px;
+  height: 25px;
   width: 80px;
   background-color:#3c85f9;
-  padding: 3px 3px;
-  font-size: 10px;
+  padding: 2px 2px;
+  font-size: 15px;
   border-radius: 3px;
 }
 }
