@@ -70,6 +70,15 @@ body::before {
   text-align: right;
 }
 
+.resume{
+  height: 50px;
+  width: 120px;
+  background-color:#3c85f9;
+  padding: 5px 5px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
 .Skills {
   padding-top: 400px;
   padding-left: 100px;
