@@ -271,15 +271,6 @@ body::before {
   }
 }
 
-.contact{
-      padding-left: 10px;
-  padding-right: 10px;
-}
-.contact h2{
-  font-size: 40px;
-
-}
-
 @media (max-width: 480px) {
   
   .about {

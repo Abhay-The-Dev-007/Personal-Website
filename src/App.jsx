@@ -71,7 +71,7 @@ const App = () => {  // Renamed from SmoothScroll to App
 
           <div className='contact' id='socials'>
             <h2>Get In Touch</h2>
-            <ContactSection />
+            <div><ContactSection /></div>
           </div>
 
           <div className='Social'>

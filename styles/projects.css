@@ -16,7 +16,7 @@
     cursor: pointer;
     border-radius: 6px;
     transition: all 0.5s ease;
-    background: rgb(246, 222, 222);
+    background: rgb(249, 173, 135);
     border: 2px solid rgb(241, 228, 228);
     display: flex;
     flex-direction: column;
@@ -28,10 +28,11 @@
 
   .card2-section:hover {
     flex: 5;
-    background: #f8b1ae;
+    background: #f6e0d1;
   }
 
   .summary span {
+    font-weight: bold;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     font-size: 1.5rem;
