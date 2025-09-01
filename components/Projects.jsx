@@ -11,12 +11,12 @@ const cardsData = [
     tech: 'Nodejs, Expressjs, EJS, HTML, MongoDB, JWT, Bootstrap',
   },
   {
-    title: 'Movie Mesh',
+    title: 'Penny Path',
     description:
-      'MovieMesh🎬 is a simple and user-friendly React web application that allows users to search for movies using The Movie Database (TMDb) API. It features a search bar for quick lookups and displays the top 5 trending movies.',
+      'Penny Path is a full-stack MERN application designed to help users track expenses, manage incomes, and visualize their financial journey. It offers user authentication, insightful financial charts, and interactive dashboards to monitor, analyze, and export your transactions.',
     image: 'homepage2.png',
-    githubLink: 'https://github.com/Abhay-The-Dev-007/MovieMesh-',
-    tech: 'Reactjs, Tailwind@CSS, APIs, Appwrite',
+    githubLink: 'https://github.com/Abhay-The-Dev-007/Penny-Path',
+    tech: 'React (Vite), Axios, Chart.js/Recharts, TailwindCSS, Node.js, Express.js, MongoDB, JWT, bcrypt
   },
   {
     title: 'IMAGE vision',
