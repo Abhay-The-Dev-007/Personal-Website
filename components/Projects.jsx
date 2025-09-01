@@ -16,7 +16,7 @@ const cardsData = [
       'Penny Path is a full-stack MERN application designed to help users track expenses, manage incomes, and visualize their financial journey. It offers user authentication, insightful financial charts, and interactive dashboards to monitor, analyze, and export your transactions.',
     image: 'homepage2.png',
     githubLink: 'https://github.com/Abhay-The-Dev-007/Penny-Path',
-    tech: 'React (Vite), Axios, Chart.js/Recharts, TailwindCSS, Node.js, Express.js, MongoDB, JWT, bcrypt
+    tech: 'React (Vite), Axios, Chart.js/Recharts, TailwindCSS, Node.js, Express.js, MongoDB, JWT, bcrypt,
   },
   {
     title: 'IMAGE vision',
