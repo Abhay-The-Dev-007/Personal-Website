@@ -35,11 +35,11 @@ const SkillGrid = () => {
   return (
     <div className="skill-grid" ref={gridRef}>
       <div><img src="/c++.png" alt="C++" />C++</div>
-      <div><img src="/" alt="Python" />Python</div>
+      <div><img src="/python_img.jpg" alt="Python" />Python</div>
       <div><img src="/c.png" alt="C"/>C</div>
       <div><img src="/java.svg" alt="Java"/>Java</div>
       <div><img src="/js.svg" alt="JavaScript" />JavaScript</div>
-      <div><img src="/" alt="SQL" />SQL</div>
+      <div><img src="/sql.jpg" alt="SQL" />SQL</div>
       <div><img src="/html.svg" alt="HTML5" />HTML</div>
       <div><img src="/css.svg" alt="CSS" />CSS</div>
       <div><img src="/reactjs.svg" alt="React" />ReactJs</div>
