@@ -62,7 +62,7 @@ useEffect(() => {
         <a className="NavLink" href="#skills" onClick={(e) => handleScroll(e, "#skills")}>Skills</a>
         <a className="NavLink" href="#projects" onClick={(e) => handleScroll(e, "#projects")}>Projects</a>
         <a className="NavLink" href="#socials" onClick={(e) => handleScroll(e, "#socials")}>Connect</a>
-        <a className="NavBtnLink mobile-only" href="/Abhay Singh's Resume.pdf" target='_blank'>Resume</a>
+        <a className="NavBtnLink mobile-only" href="/Abhay_Singh_s_Resume.pdf" target='_blank'>Resume</a>
       </div>
 
       <div className="NavBtn desktop-only">
