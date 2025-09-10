@@ -43,12 +43,12 @@ const App = () => {  // Renamed from SmoothScroll to App
               </div>
 
               <p className='about-me'>I'm a passionate and driven Computer Science and Engineering student 🧑‍💻 .
-                I enjoy building practical web applications, exploring full-stack development, and solving real-world problems with code. I'm always eager to learn and take on new challenges.⛓️‍💥</p>
+                I enjoy building practical web applications, exploring full-stack development, AI solutions, and solving real-world problems with code. I'm always eager to learn and take on new challenges.⛓️‍💥</p>
 
               <div className='introduction'>
                 <h2>01. About Me</h2>
                 
-                <h4>Welcome to my personal space on the web! I'm a Computer Science and Engineering student specializing in Data Science at Maharaja Agrasen Institute of Technology (MAIT)🏫. I'm passionate about turning ideas into real-world applications—whether it's building full-stack web projects, diving into data, or exploring new technologies. Take a look around to see what I've been working on!
+                <h4>Welcome to my personal space on the web! I'm a Computer Science and Engineering student specializing in Data Science at Maharaja Agrasen Institute of Technology (MAIT)🏫. I'm passionate about turning ideas into real-world applications—whether it's building full-stack web projects, developing AI/ML solutions, diving into data, or exploring new technologies. Take a look around to see what I've been working on!
                   <br/><a href="/Abhay_Singh_s_Resume.pdf" target='_blank'><button className='resume' >Resume</button></a>
                 </h4>
               </div>
