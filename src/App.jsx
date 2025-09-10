@@ -43,7 +43,7 @@ const App = () => {  // Renamed from SmoothScroll to App
               </div>
 
               <p className='about-me'>I'm a passionate and driven Computer Science and Engineering student 🧑‍💻 .
-                I enjoy building practical web applications, exploring full-stack development, AI solutions, and solving real-world problems with code. I'm always eager to learn and take on new challenges.⛓️‍💥</p>
+                I enjoy building practical web applications, exploring <b>full-stack development, AI solutions,</b> and solving real-world problems with code. I'm always eager to learn and take on new challenges.⛓️‍💥</p>
 
               <div className='introduction'>
                 <h2>01. About Me</h2>
