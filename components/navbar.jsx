@@ -66,7 +66,7 @@ useEffect(() => {
       </div>
 
       <div className="NavBtn desktop-only">
-  <a className="NavBtnLink" href="public/Abhay_Singh_s_Resume_02.pdf" target='_blank'>Resume</a> {/* desktop only */}
+  <a className="NavBtnLink" href="Abhay_Singh_s_Resume_02.pdf" target='_blank'>Resume</a> {/* desktop only */}
 </div>
     </nav>
   );
