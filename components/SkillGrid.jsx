@@ -10,13 +10,12 @@ const SkillGrid = () => {
         if (entry.isIntersecting) {
           const images = gridRef.current.querySelectorAll("img");
           images.forEach((img, index) => {
-            img.classList.remove("animate-slide-in"); // reset if needed
+            img.classList.remove("animate-slide-in");
             setTimeout(() => {
               img.classList.add("animate-slide-in");
             }, index * 100);
           });
         } else {
-          // Optional: reset when out of view
           const images = gridRef.current.querySelectorAll("img");
           images.forEach((img) => img.classList.remove("animate-slide-in"));
         }
@@ -30,22 +29,32 @@ const SkillGrid = () => {
   
     return () => observer.disconnect();
   }, []);
-  
 
   return (
     <div className="skill-grid" ref={gridRef}>
+      {/* Languages */}
       <div><img src="/c++.png" alt="C++" />C++</div>
       <div><img src="/python_img.jpg" alt="Python" />Python</div>
-      <div><img src="/c.png" alt="C"/>C</div>
-      <div><img src="/java.svg" alt="Java"/>Java</div>
+      <div><img src="/r.png" alt="R" />R</div>
       <div><img src="/js.svg" alt="JavaScript" />JavaScript</div>
       <div><img src="/sql.png" alt="SQL" />SQL</div>
-      <div><img src="/html.svg" alt="HTML5" />HTML</div>
-      <div><img src="/css.svg" alt="CSS" />CSS</div>
-      <div><img src="/reactjs.svg" alt="React" />ReactJs</div>
-      <div><img src="/nodejs.svg" alt="Node.js" />NodeJs</div>
-      <div><img src="/expressjs.svg" alt="Express" />ExpressJs</div>
+      
+      {/* Frameworks/Libraries */}
+      <div><img src="/reactjs.svg" alt="React" />React</div>
+      <div><img src="/nodejs.svg" alt="Node.js" />Node.js</div>
+      <div><img src="/expressjs.svg" alt="Express" />Express</div>
+      <div><img src="/numpy.svg" alt="NumPy" />NumPy</div>
+      <div><img src="/pandas.svg" alt="Pandas" />Pandas</div>
+      <div><img src="/matplotlib.svg" alt="Matplotlib" />Matplotlib</div>
+      <div><img src="/scikit.svg" alt="Scikit-Learn" />Scikit-Learn</div>
+      <div><img src="/pytorch.png" alt="PyTorch" />PyTorch</div>
+      
+      {/* Databases & Tools */}
       <div><img src="/mongodb.svg" alt="MongoDB" />MongoDB</div>
+      <div><img src="/mysql.svg" alt="MySQL" />MySQL</div>
+      <div><img src="/git.png" alt="Git" />Git</div>
+      <div><img src="/github.svg" alt="GitHub" />GitHub</div>
+      <div><img src="/vscode.webp" alt="VS Code" />VS Code</div>
     </div>
   );
 };
